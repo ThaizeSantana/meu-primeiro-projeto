@@ -1,0 +1,21 @@
+.cor{
+    color:yellowgreen;
+}
+
+#h1-cor{
+    color:darkblue;
+}
+
+#p-font{
+    /* Alteração do estilo da letra */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Aumentar o tamanho da letra */
+    font-size:50px;
+    /* Peso da fonte - negrito */
+    font-weight:bold;
+    /* Estilo da letra */
+    font-style: italic;
+    /* Alinhamento do texto */
+    text-align: justify;
+
+}
