@@ -15,6 +15,11 @@ a:hover {
     color: black;
     padding-left: 50px;
 }
+ 
+a {
+    margin-left: 15px;
+} 
+
 
 body {
     font-style: normal;
@@ -56,7 +61,10 @@ body {
     display: flex;
     justify-content: space-around;
 }
+ 
+.cronologia{
+    color: white;
+    font-size: medium;
+    margin: ;
+}
 
-a {
-    margin-left: 15px;
-} 
