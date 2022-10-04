@@ -1,70 +1,99 @@
-header {
+ header {
+     display: flex;
+     justify-content:space-between;
+     width: 100%;
+     height: 50px;
+     background-color:black;
+ }
+
+ header a {
+     color: red;
+ }
+
+ a:hover {
+     background-color: black;
+     color:white;
+     padding-left: 50px;
+ }
+
+ a {
+     margin-left: 15px;
+ }
+
+ body {
+     font-style: normal;
+     font-family:Arial, Helvetica, sans-serif;
+     color: black;
+     background-color: wheat;
+ }
+
+ #menu {
+     display: flex;
+     justify-content: flex-end;
+     text-align: center;
+ }
+
+ #primeira-imagem{
+    display: block;
+    margin: auto;
+ }
+
+ .logo {
+     height: 100%;
+ }
+
+ .livros-titulo {
+     text-align: center;
+     color: red;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .titulo {
+     text-align: center;
+     color: black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .fonte-inicial {
+     text-align: end;
+     font-size: medium;
+     font-style: italic;
+    
+ }
+
+ .imagens {
+     display:flex;
+     justify-content:space-around;
+ }
+
+ .cronologia {
+     color: black;
+     font-size: medium;
+     border-style: double;
+     border-width: 5px;
+     border-color: black;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #sinopses {
+     color: red;
+     text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: larger;
+ }
+
+ .texto {
+     color: black;
+     font-size: medium;
+     text-align: justify;
+     background-color:rgb(155, 9, 9);
+     padding: 10px;
+ }
+
+ footer{
+    background-color: black;
     display: flex;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(18, 31, 140);
-    padding-top: 30px;
-}
-
-header a {
+    justify-content: center;
+    font-size: 10px;
     color: white;
-}
+ }
  
-a:hover {
-    background-color:whitesmoke;
-    color: black;
-    padding-left: 50px;
-}
- 
-a {
-    margin-left: 15px;
-} 
-
-
-body {
-    font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    background-image: url(background.img/background.jpg);
-    background-size: cover;
-}
-
-#menu{
-    display: flex;
-    justify-content: flex-end;
-    text-align: center;
-}
-
-.logo{
-    width: 40px;
-}
-
-.livros-titulo{
-    text-align: center;
-    color: white;
-}
-
-.titulo{
-    text-align: center;
-    color: white;
-    fon
-}
-
-.fonte-inicial {
-    text-align: end;
-    font-size: medium;
-    font-style: italic;
-    color: white;
-}
-
-.imagens{
-    display: flex;
-    justify-content: space-around;
-}
- 
-.cronologia{
-    color: white;
-    font-size: medium;
-    margin: ;
-}
-
